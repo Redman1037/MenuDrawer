@@ -1,5 +1,7 @@
 # MenuDrawer
-This library is a helper to place navigation drawer in activity
+This library is a helper to place navigation drawer in activity, This is not recommended way to use navigation drawer . Always use navigation drawer with fragments . Use this library only if you got no other choise
+
+       compile 'in.eightfolds:menudrawer:1.0.0'
 
 #Usage
 
@@ -14,5 +16,6 @@ This library is a helper to place navigation drawer in activity
   
          }
          
-         
-   ToolBar works only with activities which extend `AppCompatActivity`  and theme set to NoActionBar theme
+ToolBar works only with activities which extend `AppCompatActivity`  and theme set to NoActionBar theme ,
+
+Take ToolBar inside the content view and just pass its Id
